@@ -6,6 +6,14 @@
     Title="Carousel">
     <ContentPage.Content>
         <StackLayout>
+<!--SHAPE Ellipse -->
+            <Ellipse Fill="DarkBlue"
+         Stroke="Red"
+         StrokeThickness="4"
+         WidthRequest="150"
+         HeightRequest="50"
+         HorizontalOptions="Start" />
+
             <Label
                 Text="{Binding CurrentItem.Title}"
                 Padding="0,20"
